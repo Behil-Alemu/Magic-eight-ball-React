@@ -1,0 +1,48 @@
+.EightBall{
+    background-color: #f2ecf9;
+}
+
+.EightBall-starter-button{
+    border-radius: 50%;
+    background-color: #0d0d0c;
+    width: 250px;
+    height: 220px;
+    color: aliceblue;
+    font-size: 30px;
+    margin: 1rem;
+    border-color: #c0a893;
+
+}
+.EightBall-goldenrod-button{
+    border-radius: 50%;
+    background-color: #c6ab5a;
+    width: 250px;
+    height: 220px;
+    color: aliceblue;
+    font-size: 30px;
+    margin: 1rem;
+    border-color: #c0a893;
+
+}
+.EightBall-green-button{
+    border-radius: 50%;
+    background-color: #638962;
+    width: 250px;
+    height: 220px;
+    color: aliceblue;
+    font-size: 30px;
+    margin: 1rem;
+    border-color: #c0a893;
+
+}
+.EightBall-red-button{
+    border-radius: 50%;
+    background-color: #f27272;
+    width: 250px;
+    height: 220px;
+    color: aliceblue;
+    font-size: 30px;
+    margin: 1rem;
+    border-color: #c0a893;
+
+}
