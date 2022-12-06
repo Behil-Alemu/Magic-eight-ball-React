@@ -8,6 +8,9 @@ const EightBall = (props) => {
 	// const getAnswer = () => {
 	// 	setAnswer(genRandom());
 	// };
+	const restart = () => {
+		setAnswer(null);
+	};
 
 	const setColor = () => {
 		if (props.answers[answer].color === 'red') {
@@ -29,6 +32,10 @@ const EightBall = (props) => {
 				onClick={() => setAnswer(genRandom())}
 			>
 				{answer === null ? 'Think of a Question' : answers[answer].msg}
+			</button>
+
+			<button className="resetButton" onClick={restart}>
+				Reset
 			</button>
 		</div>
 	);
